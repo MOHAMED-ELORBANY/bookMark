@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Random Quote Generator </title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+    <section>
+        <div class="container">
+            <h3>Bookmarker</h3>
+        </div>
+    </section>
+    <div class="container">
+        <div class="wall">
+            <div class="column">
+                <h2>Bookmark your favorite sites </h2>
+                <p>Site Name</p>
+                <input id="siteName" placeholder="write site name" type="text" />
+                <p class="alert alert-error m-auto" id="nameError"></p>
+                <p>Site URL</p>
+                <input id="siteUrl" placeholder="website URL" type="text" />
+                <p class="alert alert-error m-auto" id="urlError"></p>
+                <div class="m-auto">
+                    <button class="btn btn-primary" onclick="submit()">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div id="bookmarkList" class="column">
+
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Bookmarker By Mohamed Orbany.</p>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
